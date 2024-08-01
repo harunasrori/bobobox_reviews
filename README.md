@@ -32,7 +32,7 @@ The preprocessing stage involved several steps to clean and prepare the data for
 For aspect extraction and sentiment analysis, we used the DeBERTa v3 model. The process involved:
 - Extracting aspects from the review text
 - Analyzing the sentiment for each extracted aspect
-- 
+  
 ## Grouping Aspects
 After extracting and analyzing aspects, we found around 2000 distinct aspects. To simplify analysis, we grouped these aspects into 8 main topics using GloVe embeddings. This involved mapping each aspect to the closest predefined aspect category.
 
